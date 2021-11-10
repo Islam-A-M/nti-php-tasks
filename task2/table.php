@@ -62,7 +62,6 @@ $rowCount=0;
 foreach ($users as $key => $value) {
 
     $rowCount++;
-    $body.='<tr>';
     //$body.=' <th scope="row">'.  $rowCount.'</th>';
   foreach ($value as $key => $objectvalue) {
     
