@@ -58,11 +58,9 @@ $body='<tbody>';
 $table = '<table class="table">';
 $table .= '<thead>
 <tr>';
-$rowCount=0;
 foreach ($users as $key => $value) {
 
-    $rowCount++;
-    //$body.=' <th scope="row">'.  $rowCount.'</th>';
+    $body.='<tr>';
   foreach ($value as $key => $objectvalue) {
     
     if (!$isHeadersColleted) {
